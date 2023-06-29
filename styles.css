@@ -106,3 +106,38 @@ button {
     margin-top: -10px;
     margin-bottom: 20px;
 }
+
+/* RESET PULSE */
+.reset-focus {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px 0px #fff;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+      box-shadow: 0 0 12px 0 #fff;
+    }
+    70% {
+        box-shadow: 0 0 0 3px #fff;
+    }
+    100% {
+        box-shadow: 0 0 0 0 #fff;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 12px 0 #fff;
+    }
+    70% {
+        box-shadow: 0 0 0 3px #fff;
+    }
+    100% {
+        box-shadow: 0 0 0 0 #fff;
+    }
+  }
