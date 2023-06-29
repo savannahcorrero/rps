@@ -1,0 +1,44 @@
+* {
+    background-color: #1c2e4a;
+    color: #fff;
+}
+
+button img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.outcome {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.resetDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
